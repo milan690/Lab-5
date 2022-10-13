@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passions+Conflict&family=Permanent+Marker&display=swap');
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: rgb(180, 26, 105);
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 30px;
+
+}
+
+p:nth-child(4) {
+    color: rgba(58, 19, 216, 0.927);
+}
+
+p:nth-child(3) {
+    background-color: rgba(19, 216, 177, 0.927);
+}
+
+p:nth-child(1) {
+    background-color: rgba(25, 144, 241, 0.868);
+}
+p:nth-child(5) {
+    background-color: rgba(19, 216, 177, 0.927);
+}
+
+
+figure > img{
+    height: 275px;
+    width: 300px;
+    margin: 0 1em;
+    float: left;
+    margin-right: 10px;
+
+}
